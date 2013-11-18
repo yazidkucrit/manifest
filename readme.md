@@ -1,5 +1,14 @@
-Unofficical ParanoidAndroid - SaberMod Linaro Edition ("Paranoid SaberDroid")
-=============================================================================
+Unofficical Paranoid Android by [AOSPAL](http://google.com/+AospalOrg)
+======================================================================
+
+Paranoid SaberDroid
+===================
+
+SaberMod Linaro GCC Optimized PA
+================================
+
+[Official PA Source Is Here](https://github.com/AOSPA)
+------------------------------------------------------
 
 Submitting Patches
 ------------------
@@ -44,7 +53,7 @@ Building Our Custom Flavor of Paranoid Android
 
 Initialize repo:
 
-    repo init -u https://github.com/AOSPAL/manifest.git -b <branch>
+    repo init -u git://github.com/AOSPAL/manifest.git -b <branch>
     
 Sync the repo:
 
