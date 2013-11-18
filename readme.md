@@ -1,9 +1,10 @@
-ParanoidAndroid
-===============
+Unofficical ParanoidAndroid - SaberMod Linaro Edition ("Paranoid SaberDroid")
+=============================================================================
 
 Submitting Patches
 ------------------
-We're open source, and patches are always welcome!
+
+Paranoid Android is open source, and patches are always welcome!
 You can send patches by using these commands:
 
     cd <workspace>
@@ -22,8 +23,8 @@ use git commit --amend. Gerrit will recognize it as a new patchset.
 To view the status of your and others patches, visit [ParanoidAndroid Code Review](http://gerrit.paranoidandroid.co)
 
 
-Getting Started
----------------
+Building Paranoid Android
+-------------------------
 
 To get started with ParanoidAndroid, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
@@ -37,3 +38,18 @@ Then to sync up:
     repo sync
 
 For information on how to build, check [Here](https://github.com/AOSPA/manifest)
+
+Building Our Custom Flavor of Paranoid Android
+----------------------------------------------
+
+Initialize repo:
+
+    repo init -u https://github.com/AOSPAL/manifest.git -b <branch>
+    
+Sync the repo:
+
+    repo sync
+    
+Build:
+
+    ./rom-build.sh <YOUR_DEVICE>
