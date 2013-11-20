@@ -11,7 +11,7 @@
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
 
-  <remote  name="sabermod"
+  <remote  name="sm"
            fetch="https://github.com/SaberMod" />
 
   <remote  name="github"
@@ -379,8 +379,8 @@
 
   <!-- Start SaberMod Linaro GCC 4.8 toolchains -->
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sabermod" revision="kitkat"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sabermod" revision="kitkat"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="kitkat"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="kitkat"/>
 
   <!-- End SaberMod Linaro GCC 4.8 toolchains   -->
   
