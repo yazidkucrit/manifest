@@ -7,12 +7,9 @@
            
   <remote  name="aospa"
            fetch="https://github.com/AOSPA"
-           
+
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
-           
-  <remote  name="psd"
-           fetch="https://github.com/ParanoidSaberDroid" />
 
   <remote  name="sabermod"
            fetch="https://github.com/SaberMod" />
