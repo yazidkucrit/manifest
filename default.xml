@@ -15,8 +15,7 @@
            fetch="https://github.com/SaberMod" />
 
   <remote  name="github"
-           fetch="https://github.com"
-           review="gerrit.paranoidandroid.co" />
+           fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
