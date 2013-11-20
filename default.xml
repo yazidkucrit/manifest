@@ -14,7 +14,7 @@
   <remote  name="psd"
            fetch="https://github.com/ParanoidSaberDroid" />
 
-  <remote  name="SaberMod"
+  <remote  name="sabermod"
            fetch="https://github.com/SaberMod" />
 
   <remote  name="github"
@@ -382,8 +382,8 @@
 
   <!-- Start SaberMod Linaro GCC 4.8 toolchains -->
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="aospal" revision="kitkat"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="aospal" revision="kitkat"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sabermod" revision="kitkat"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sabermod" revision="kitkat"/>
 
   <!-- End SaberMod Linaro GCC 4.8 toolchains   -->
   
