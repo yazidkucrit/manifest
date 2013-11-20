@@ -5,8 +5,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
            
-  <remote name="aospa"
-          fetch="https://github.com/AOSPA"
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA"
            
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
