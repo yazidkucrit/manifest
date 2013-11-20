@@ -10,7 +10,10 @@
 
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
-
+           
+  <remote  name="psd"
+           fetch="https://github.com/ParanoidSaberDroid" />
+           
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
 
