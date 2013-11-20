@@ -36,18 +36,18 @@
 
   <project path="manifest" name="manifest" remote="aospal" revision="kitkat" />
 
-  <project path="build" name="android_build" remote="aospal" revision="kitkat" >
+  <project path="build" name="AOSPAL/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat" />
+  <project path="bionic" name="AOSPAL/android_bionic" remote="github" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="android_dalvik" remote="aospal" revision="kitkat" />
+  <project path="dalvik" name="AOSPAL/android_dalvik" remote="github" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -80,7 +80,7 @@
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/busybox" name="android_external_busybox" remote="aospa" revision="kitkat" />
+  <project path="external/busybox" name="AOSPA/android_external_busybox" remote="github" revision="kitkat" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
@@ -229,7 +229,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="aospal" revision="kitkat" />
+  <project path="external/skia" name="AOSPAL/android_external_skia" remote="github" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -259,14 +259,14 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="kitkat" />
+  <project path="frameworks/base" name="AOSPAL/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="aospal" revision="kitkat" />
+  <project path="frameworks/native" name="AOSPAL/android_frameworks_native" remote="github" revision="kitkat" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -294,7 +294,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="libcore" name="android_libcore" remote="aospa" revision="kitkat" />
+  <project path="libcore" name="AOSPAL/android_libcore" remote="github" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -318,20 +318,20 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="aospa" revision="kitkat" />
+  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="github" revision="kitkat" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="aospa" revision="kitkat" />
+  <project path="packages/apps/Mms" name="AOSPA/android_packages_apps_Mms" remote="github" revision="kitkat" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/ParanoidOTA" name="android_packages_apps_ParanoidOTA" remote="aospa" revision="kitkat" />
+  <project path="packages/apps/ParanoidOTA" name="AOSPA/android_packages_apps_ParanoidOTA" remote="github" revision="kitkat" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aospa" revision="kitkat"  />
+  <project path="packages/apps/Settings" name="AOSPAL/android_packages_apps_Settings" remote="github" revision="kitkat"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -379,8 +379,8 @@
 
   <!-- Start SaberMod Linaro GCC 4.8 toolchains -->
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_sabermod-arm_arm-eabi-4.8" remote="sm" revision="sm-kk-mr1"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="sm-kk-mr1"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_sabermod-arm_arm-eabi-4.8" remote="github" revision="sm-kk-mr1"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1"/>
 
   <!-- End SaberMod Linaro GCC 4.8 toolchains   -->
   
@@ -401,8 +401,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat"  />
-  <project path="system/extras" name="android_system_extras" remote="aospa" revision="kitkat"/>
+  <project path="system/core" name="AOSPAL/android_system_core" remote="github" revision="kitkat"  />
+  <project path="system/extras" name="AOSPA/android_system_extras" remote="github" revision="kitkat"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -419,7 +419,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" >
+ <project path="vendor/pa" name="AOSPAL/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
