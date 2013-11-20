@@ -5,6 +5,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
            
+  <remote name="aospa"
+          fetch="https://github.com/AOSPA"
+           
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
            
@@ -25,7 +28,7 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
 
   <remote  name="cm"
-           fetch="git://github.com"
+           fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
   <default revision="refs/tags/android-4.4_r1.2"
