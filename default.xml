@@ -296,6 +296,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision"sm-kk-mr1" />
   <project path="libcore" name="android_libcore" remote="aospal" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
