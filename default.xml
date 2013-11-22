@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
            
@@ -36,7 +35,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="manifest" remote="aospal" revision="kitkat" />
+  <project path="manifest" name="manifest" remote="aospal" revision="kitkat-remix" />
 
   <project path="build" name="android_build" remote="aospal" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -90,7 +89,7 @@
   <project path="external/chromium" name="android_external_chromium" remote="aospal" revision="kitkat" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="aospal" revision="kitkat" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -296,7 +295,6 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision"sm-kk-mr1" />
   <project path="libcore" name="android_libcore" remote="aospal" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
