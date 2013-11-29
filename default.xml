@@ -13,6 +13,9 @@
   <remote  name="psd"
            fetch="https://github.com/ParanoidSaberDroid" />
            
+   <remote  name="mpa"
+           fetch="https://github.com/ModdedPA" />
+           
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
 
