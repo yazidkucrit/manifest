@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
@@ -426,7 +425,5 @@
   <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
-
-</manifest>
 
 </manifest>
