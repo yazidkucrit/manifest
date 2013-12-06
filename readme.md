@@ -53,7 +53,7 @@ Building Our Custom Flavor of Paranoid Android
 
 Initialize repo:
 
-    repo init -u git://github.com/AOSPAL/manifest.git -b <branch>
+    repo init -u git://github.com/AOSPAL/manifest.git -b kitkat-remix
     
 Sync the repo:
 
