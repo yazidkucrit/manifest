@@ -11,14 +11,11 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" />
-
   <remote  name="cm"
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
 
-  <default revision="refs/tags/android-4.4_r1.2"
+  <default revision="refs/tags/android-4.4.1_r1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -328,6 +325,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />

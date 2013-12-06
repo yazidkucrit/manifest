@@ -7,7 +7,7 @@ Paranoid SaberDroid
 SaberMod Linaro GCC Optimized PA
 ================================
 
-[Official PA Source Is Here](https://github.com/AOSPA)
+[Official PA Source Is Here](https://github.com/AOSPA-legacy)
 ------------------------------------------------------
 
 Submitting Patches
