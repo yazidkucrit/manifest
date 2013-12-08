@@ -21,12 +21,6 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" />
-
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-11.0" />
@@ -424,6 +418,12 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
   <!-- AOSPAL Start -->
+  <project path="manifest" name="AOSPAL/manifest" remote="github" revision="kitkat-legacy" />
+  
+  <project path="build" name="AOSPAL/android_build" remote="github" revision="kitkat-legacy" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
   <project path="frameworks/base" name="AOSPAL/android_frameworks_base" remote="github" revision="kitkat-legacy" />
   
   <project path="packages/apps/Browser" name="AOSPAL/android_packages_apps_Browser" remote="github" revision="kitkat" />
