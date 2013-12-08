@@ -290,7 +290,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="AOSPA-legacy/android_packages_apps_Bluetooth" remote="github" revision="kitkat" />
   <project path="packages/apps/BluetoothExt" name="AOSPA-legacy/android_packages_apps_BluetoothExt" remote="github" revision="kitkat" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -427,6 +426,7 @@
   <!-- AOSPAL Start -->
   <project path="frameworks/base" name="AOSPAL/android_frameworks_base" remote="github" revision="kitkat-legacy" />
   
+  <project path="packages/apps/Browser" name="AOSPAL/android_packages_apps_Browser" remote="github" revision="kitkat" />
   <project path="packages/apps/Settings" name="AOSPAL/android_packages_apps_Settings" remote="github" revision="kitkat-legacy" />
 
   <project path="vendor/pa" name="AOSPAL/android_vendor_pa" remote="github" revision="kitkat-legacy" >
