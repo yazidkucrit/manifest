@@ -22,8 +22,8 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario" />
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
