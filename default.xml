@@ -12,7 +12,10 @@
            
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
-
+           
+  <remote  name="sf"
+           fetch="http://git.code.sf.net/" />
+           
   <remote  name="github"
            fetch="https://github.com" />
 
