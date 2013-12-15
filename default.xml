@@ -13,9 +13,6 @@
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
            
-  <remote  name="sf"
-           fetch="git://git.code.sf.net/p/" />
-           
   <remote  name="omni"
            fetch="https://github.com/omnirom" />
            
