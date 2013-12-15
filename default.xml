@@ -12,12 +12,27 @@
            
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
-
+           
+  <remote  name="sf"
+           fetch="git://git.code.sf.net/p/" />
+           
+  <remote  name="omni"
+           fetch="https://github.com/omnirom" />
+           
+  <remote  name="aokp"
+           fetch="https://github.com/aokp" />
+           
+  <remote  name="slim"
+           fetch="https://github.com/slimroms" />
+           
   <remote  name="github"
            fetch="https://github.com" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario" />
+           
+  <remote name="TheMuppets"
+          fetch="https://github.com/TheMuppets" />
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
