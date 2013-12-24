@@ -62,3 +62,21 @@ Sync the repo:
 Build:
 
     ./rom-build.sh <YOUR_DEVICE>
+    
+
+Errors
+-------
+When met with sync error:
+
+    check /.repo/local_manifests/roomservice.xml
+    
+Change errors to reflect correct repos , EG.
+
+From
+   
+    <project name="AOSPA/AOSPA/android_device_lge_mako" path="device/lge/mako" remote="github" revision="kitkat" />
+</manifest>
+
+To
+    <project name="AOSPA/android_device_lge_mako" path="device/lge/mako" remote="github" revision="kitkat" />
+</manifest>
