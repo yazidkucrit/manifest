@@ -1,11 +1,8 @@
 Unofficical Paranoid Android by [AOSPAL](http://google.com/+AospalOrg)
 ======================================================================
 
-Paranoid SaberDroid
-===================
-
-SaberMod Linaro GCC Optimized PA
-================================
+Paranoid SaberDroidSaberMod Linaro GCC Optimized PA
+===================================================
 
 [Official PA Source Is Here](https://github.com/AOSPA)
 ------------------------------------------------------
