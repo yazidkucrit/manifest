@@ -420,7 +420,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-remix" >
+ <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
