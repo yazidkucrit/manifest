@@ -39,7 +39,7 @@
            review="review.cyanogenmod.org" />
            
   <remote  name="beergang"
-           fetch="https://github.com/BeerGang"
+           fetch="https://github.com/BeerGang" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
