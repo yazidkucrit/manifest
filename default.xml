@@ -14,7 +14,10 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
-
+           
+  <remote name="jesco"
+          fetch="https://github.com/JescoWalker"
+          
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-c="true"
@@ -27,6 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="kernel/lge/msm8974" name="JescoWalker/android_kernel_lge_msm8974" remote="jesco" revision="remix-legacy"
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="AOSPA-legacy/android_art" remote="github" revision="kitkat" />
   <project path="bionic" name="AOSPAL/android_bionic" remote="github" revision="kitkat-legacy" />
@@ -402,6 +406,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+ <project path="vendor/lge" name="JescoWalker/proprietary_vendor_lge" remote="jesco" revision="remix-legacy"
  <project path="vendor/pa" name="AOSPAL/android_vendor_pa" remote="github" revision="kitkat-legacy" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
