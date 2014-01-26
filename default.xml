@@ -16,7 +16,7 @@
            review="review.cyanogenmod.org" />
            
   <remote name="jesco"
-          fetch="https://github.com/JescoWalker"
+          fetch="https://github.com/JescoWalker" />
           
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
