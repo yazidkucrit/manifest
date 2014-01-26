@@ -406,7 +406,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- <project path="vendor/lge" name="JescoWalker/proprietary_vendor_lge" remote="jesco" revision="remix-legacy"
+ <project path="vendor/lge" name="JescoWalker/proprietary_vendor_lge" remote="jesco" revision="remix-legacy" />
  <project path="vendor/pa" name="AOSPAL/android_vendor_pa" remote="github" revision="kitkat-legacy" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
