@@ -17,6 +17,12 @@
            
   <remote name="jesco"
           fetch="https://github.com/JescoWalker" />
+
+  <remote  name="aospal"
+           fetch="https://github.com/AOSPAL" />
+
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA" />
           
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
