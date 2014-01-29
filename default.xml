@@ -14,7 +14,7 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
-           
+
   <remote name="jesco"
           fetch="https://github.com/JescoWalker" />
 
@@ -23,7 +23,7 @@
 
   <remote  name="aospa"
            fetch="https://github.com/AOSPA" />
-          
+
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-c="true"
@@ -31,7 +31,7 @@
            sync-j="4" />
 
   <project path="manifest" name="manifest" remote="aospal" revision="remix-legacy" />
-  
+
   <project path="build" name="android_build" remote="aospal" revision="remix-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -288,7 +288,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="aospal" revision="kitkat" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
@@ -342,6 +342,7 @@
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -410,9 +411,9 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- 
+
   <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-legacy" >
-    <copyfile src="build.sh" dest="rom-build.sh" />    
+    <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
 </manifest>
