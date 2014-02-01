@@ -3,31 +3,31 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-           
+
   <remote  name="aospa"
            fetch="https://github.com/AOSPA" />
 
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
-           
+
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
-           
+
   <remote  name="omni"
            fetch="https://github.com/omnirom" />
-           
+
   <remote  name="aokp"
            fetch="https://github.com/aokp" />
-           
+
   <remote  name="slim"
            fetch="https://github.com/slimroms" />
-           
+
   <remote  name="github"
            fetch="https://github.com" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario" />
-           
+
   <remote name="TheMuppets"
           fetch="https://github.com/TheMuppets" />
 
@@ -37,7 +37,7 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
-           
+
   <remote  name="beergang"
            fetch="https://github.com/BeerGang" />
 
@@ -54,7 +54,7 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" remote="aospal" revision="kitkat" /> 
+  <project path="art" name="android_art" remote="aospal" revision="kitkat" />
   <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -299,7 +299,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="aospal" revision="kitkat" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
@@ -425,7 +425,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" >
-    <copyfile src="build.sh" dest="rom-build.sh" />    
+    <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
 
