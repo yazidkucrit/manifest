@@ -22,7 +22,7 @@
            fetch="https://github.com/AOSPA" />
            
   <remote  name="omni"         
-           fetch="https://github.com/omnirom/"
+           fetch="https://github.com/omnirom" />
            
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />         
