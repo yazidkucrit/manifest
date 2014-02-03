@@ -15,9 +15,6 @@
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
-  <remote name="jesco"
-          fetch="https://github.com/JescoWalker" />
-
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
 
