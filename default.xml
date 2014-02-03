@@ -20,6 +20,9 @@
 
   <remote  name="aospa"
            fetch="https://github.com/AOSPA" />
+           
+  <remote  name="blobs"
+           fetch="https://github.com/TheMuppets" />         
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
