@@ -6,6 +6,9 @@
 
   <remote  name="aospa"
            fetch="https://github.com/AOSPA" />
+           
+  <remote name="chameleonos"
+           fetch="https://github.com/ChameleonOS" />
 
   <remote  name="aospal"
            fetch="https://github.com/AOSPAL" />
@@ -342,6 +345,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="chameleonos" revision="kitkat" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aospal" revision="kitkat-remix"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
