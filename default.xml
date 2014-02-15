@@ -24,7 +24,7 @@
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />
 
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-c="true"
            sync-f="true"
