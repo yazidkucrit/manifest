@@ -37,7 +37,7 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="AOSPA-legacy/android_art" remote="github" revision="kitkat" />
+  <project path="art" name="android_art" remote="aospal" revision="kitkat-legacy" />
   <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat-legacy" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
