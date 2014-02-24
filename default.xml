@@ -314,6 +314,7 @@
   <project path="packages/apps/ContactsCommon" name="AOSPA-legacy/android_packages_apps_ContactsCommon" remote="github" revision="kitkat" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="aospal" revision="kitkat-remix" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-11.0" />
@@ -399,7 +400,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-legacy" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0"/>
-  <project path="system/media" name="android_system_media" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="system/media" name="android_system_media" remote="aospal" revision="remix-legacy" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-11.0" groups="pdk" />
