@@ -11,6 +11,9 @@
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
