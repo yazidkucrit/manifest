@@ -73,7 +73,7 @@ From
    
     <project name="AOSPA/AOSPA/android_device_lge_mako" path="device/lge/mako" remote="github" revision="kitkat" />
 </manifest>
-TO  
-    <project name="AOSPA/android_device_lge_mako" path="device/lge/mako" remote="github" revision="kitkat" />
+TO
+<project name="AOSPA/android_device_lge_mako" path="device/lge/mako" remote="github" revision="kitkat" />
 </manifest>
 --------
