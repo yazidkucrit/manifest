@@ -48,9 +48,17 @@ For information on how to build, check [Here](https://github.com/AOSPA/manifest)
 Building Our Custom Flavor of Paranoid Android
 ----------------------------------------------
 
+They are 4 branches with different versions, make sure you pick the correct one. Four of them are built with SaberMod toolchain:
+
+1. kitkat - Stock vanilla AOSPA, for nexus devices
+2. kitkat-remix - Kanged version of PA, contains lots of features from other ROMs. Meant for nexus. 
+3. kitkat-legacy - Stock vanilla AOSPA, for non-nexus devices. 
+4. remix-legacy - Kanged version of PA, contains lots of featues from other ROMs. Meant for non-nexus.
+
+
 Initialize repo:
 
-    repo init -u git://github.com/AOSPAL/manifest.git -b kitkat-remix
+    repo init -u git://github.com/AOSPAL/manifest.git -b <branch>
     
 Sync the repo:
 
