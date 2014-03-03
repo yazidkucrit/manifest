@@ -35,7 +35,7 @@
 
   <project path="manifest" name="manifest" remote="aospal" revision="remix-legacy" />
 
-  <project path="build" name="android_build" remote="aospal" revision="remix-legacy" >
+  <project path="build" name="android_build" remote="aospal" revision="kitkat-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -420,7 +420,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
 
-  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-legacy" >
+  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="remix-legacy" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
