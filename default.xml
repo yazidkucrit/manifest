@@ -16,33 +16,21 @@
   <remote  name="omni"
            fetch="https://github.com/omnirom/" />
 
-  <remote  name="aokp"
-           fetch="https://github.com/aokp/" />
-
-  <remote  name="slim"
-           fetch="https://github.com/slimroms/" />
-
-  <remote  name="pac"
-           fetch="https://github.com/PAC-man/" />
-
   <remote  name="github"
            fetch="https://github.com/" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario/" />
 
-  <remote name="TheMuppets"
-          fetch="https://github.com/TheMuppets/" />
+  <remote  name="muppets"
+           fetch="https://github.com/TheMuppets/" />
 
-  <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" />
+  <remote  name="private"
+           fetch="ssh://git@bitbucket.org/aospal"
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
-
-  <remote  name="beergang"
-           fetch="https://github.com/BeerGang/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -276,7 +264,12 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="aospal" revision="kitkat-remix" />
+  
+  <!-- WARNING: "frameworks/base" may hang on sync. If it does, then comment out or romove it from your
+                 manifest. Make sure to manually 'git clone' the repository afterward -->
+                 
   <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="kitkat-remix" />
+  
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="aospal" revision="kitkat" />
@@ -392,8 +385,13 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="sm-kk-mr1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="sm-kk-mr1"/>
+  
+  <!-- If you are an official AOSPAL/SaberMod member, or have access to other GCC 4.9 toolchains,
+       make sure to either comment out or replace the appropriate of the following two lines. -->
+  
+  <!-- Kernel (arm-eabi -->               <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="sm-kk-mr1" />
+  <!-- ROM  (arm-linux-androideabi -->    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="sm-kk-mr1"/>
+  
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -404,7 +402,6 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
@@ -429,7 +426,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-remix" />
+  <!-- Paranoid SaberDroid Vendor WIP -->
+    <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-remix" />
   <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-remix" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
