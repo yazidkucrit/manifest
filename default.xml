@@ -16,6 +16,9 @@
   <remote  name="omni"
            fetch="https://github.com/omnirom/" />
 
+  <remote  name="pac"
+           fetch="https://github.com/PAC-man/" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -263,12 +266,12 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="aospal" revision="kitkat-remix" />
-  
+
   <!-- WARNING: "frameworks/base" may hang on sync. If it does, then comment out or remove it from your
                  manifest. Make sure to manually 'git clone' the repository afterward -->
-                 
+
   <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="kitkat-remix" />
-  
+
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="aospal" revision="kitkat" />
@@ -384,13 +387,13 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  
+
   <!-- If you are an official AOSPAL/SaberMod member, or have access to other GCC 4.9 toolchains,
        make sure to either comment out or replace the appropriate of the following two lines. -->
-  
+
   <!-- Kernel -->  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="sm-kk-mr1" />
   <!-- ROM -->     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="sm-kk-mr1"/>
-  
+
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
