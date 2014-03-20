@@ -2,47 +2,47 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="aospa"
-           fetch="https://github.com/AOSPA" />
+           fetch="https://github.com/AOSPA/" />
 
   <remote  name="aospal"
-           fetch="https://github.com/AOSPAL" />
+           fetch="https://github.com/AOSPAL/" />
 
   <remote  name="sm"
-           fetch="https://github.com/SaberMod" />
+           fetch="https://github.com/SaberMod/" />
 
   <remote  name="omni"
-           fetch="https://github.com/omnirom" />
+           fetch="https://github.com/omnirom/" />
 
   <remote  name="aokp"
-           fetch="https://github.com/aokp" />
+           fetch="https://github.com/aokp/" />
 
   <remote  name="slim"
-           fetch="https://github.com/slimroms" />
+           fetch="https://github.com/slimroms/" />
 
   <remote  name="pac"
-           fetch="https://github.com/PAC-man" />
+           fetch="https://github.com/PAC-man/" />
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com/" />
 
   <remote  name="blobs"
-           fetch="https://github.com/ThankYouMario" />
+           fetch="https://github.com/ThankYouMario/" />
 
   <remote name="TheMuppets"
-          fetch="https://github.com/TheMuppets" />
+          fetch="https://github.com/TheMuppets/" />
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
+           fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
 
   <remote  name="beergang"
-           fetch="https://github.com/BeerGang" />
+           fetch="https://github.com/BeerGang/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
