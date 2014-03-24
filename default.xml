@@ -294,7 +294,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aospal" revision="remix-legacy" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="AOSPA-legacy/android_frameworks_opt_telephony-msim" remote="github" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="aospal" revision="kitkat-legacy" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="aospal" revision="kitkat" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
