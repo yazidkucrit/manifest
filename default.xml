@@ -47,7 +47,7 @@
   <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat-legacy" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="aospal" revision="cm-11.0" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="aospal" revision="kitkat-legacy" />
   <project path="developers/build" name="platform/developers/build" />
