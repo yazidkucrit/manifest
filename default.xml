@@ -133,7 +133,7 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" revision="master" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="android_external_flac" remote="cm" revision="cm-11.0" groups="pdk" />
