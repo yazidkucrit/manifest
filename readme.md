@@ -35,10 +35,10 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 There are four (4) main branches to build from:
 
-1) "kitkat" (Stock vanilla AOSPA, for nexus devices)
-2) "kitkat-remix" (our main branch, filled with non-PA features) 
-3) "kitkat-legacy" (stock vanilla AOSPA, for non-nexus devices)
-4) "remix-legacy" (filled with non-PA features, for non-nexus devices)
+    1) "kitkat" (Stock vanilla AOSPA, for nexus devices)
+    2) "kitkat-remix" (our main branch, filled with non-PA features) 
+    3) "kitkat-legacy" (stock vanilla AOSPA, for non-nexus devices)
+    4) "remix-legacy" (filled with non-PA features, for non-nexus devices)
 
 
 Initialize repo:
