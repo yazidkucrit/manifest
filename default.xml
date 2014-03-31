@@ -14,14 +14,6 @@
   <remote  name="omni"
            fetch="https://github.com/omnirom" />
 
-<<<<<<< HEAD
-  <remote  name="pac"
-           fetch="https://github.com/PAC-man" />
-=======
-  <remote  name="slim"
-           fetch="https://github.com/SlimRoms/" />
->>>>>>> 111a76f... Goodbye LockClock, Hello DashClock (1/3)
-
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
@@ -329,7 +321,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="omni" revision="android-4.4" />
+  <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="omni" revision="android-4.4" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="AOSPA-legacy/android_packages_apps_Dialer" remote="github" revision="kitkat" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
