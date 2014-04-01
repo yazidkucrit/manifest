@@ -319,7 +319,7 @@
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/Contacts" name="AOSPA-legacy/android_packages_apps_Contacts" remote="github" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="omni" revision="android-4.4" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
