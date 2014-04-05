@@ -68,7 +68,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/aac" name="android_external_aac" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -137,7 +137,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" revision="master" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="android_external_flac" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
@@ -234,7 +234,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
-  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-11.0" />
+  <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm" revision="cm-11.0" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
