@@ -297,7 +297,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aospal" revision="remix-legacy" groups="pdk" />
-  <project path="frameworks/opt/telephony-msim" name="AOSPAL/android_frameworks_opt_telephony-msim" remote="github" revision="kitkat" groups="pdk" />
+  <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" remote="aospal" revision="kitkat-legacy" groups="pdk" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="aospal" revision="kitkat" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-11.0" />
