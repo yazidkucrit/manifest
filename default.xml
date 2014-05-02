@@ -13,6 +13,9 @@
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
 
+  <remote  name="pac"
+           fetch="https://github.com/PAC-man/" />
+
   <remote  name="omni"
            fetch="https://github.com/omnirom/" />
 
@@ -270,7 +273,7 @@
   <!-- WARNING: "frameworks/base" may hang on sync. If it does, then comment out or remove it from your
                  manifest. Make sure to manually 'git clone' the repository afterward -->
 
-  <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="kitkat-remix" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="remix-staging" />
 
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -290,7 +293,7 @@
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="aospal" revision="kitkat" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aospal" revision="kitkat-remix" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aospal" revision="remix-staging" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="aospal" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -320,20 +323,21 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="aospal" revision="android-4.4" />
   <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="omni" revision="android-4.4" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="aospal" revision="kitkat-remix" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="aospal" revision="remix-staging" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="aospal" revision="android-4.4" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omni" revision="android-4.4" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="aospal" revision="kitkat-remix" />
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="aospal" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="aospal" revision="kitkat-remix" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="aospal" revision="kitkat" />
@@ -343,7 +347,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ScreenRecorder" name="AOSPA-legacy/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aospal" revision="kitkat-remix"  />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aospal" revision="remix-staging"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -369,7 +373,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="aospal" revision="kitkat-remix" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="aospal" revision="remix-staging" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
