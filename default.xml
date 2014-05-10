@@ -437,7 +437,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Paranoid SaberDroid Vendor WIP -->
-    <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-remix" />
+    <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="remix-staging" />
   <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
