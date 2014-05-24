@@ -41,7 +41,7 @@
 
   <project path="manifest" name="manifest" remote="aospal" revision="remix-legacy" />
 
-  <project path="build" name="android_build" remote="aospal" revision="kitkat-legacy" >
+  <project path="build" name="android_build" remote="aospal" revision="remix-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
