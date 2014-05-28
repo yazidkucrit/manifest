@@ -425,7 +425,8 @@
   <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-legacy" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0"/>
   <project path="system/media" name="android_system_media" remote="aospal" revision="kitkat-legacy" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="aospal" revision="kitkat-legacy" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
