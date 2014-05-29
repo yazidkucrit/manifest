@@ -7,8 +7,16 @@ This is unofficical Paranoid Android by [Team AOSPAL](http://google.com/+AospalO
 -----------------------------------------------------------------------------------
 
 
-[Official PA Source Is Here](https://github.com/AOSPA)
-------------------------------------------------------
+[Official PA Source Is Here](https://github.com/AOSPA-legacy)
+-------------------------------------------------------------
+
+Building
+--------
+
+Refer to this link:
+
+    https://github.com/AOSPAL/manifest/wiki/How-to-build-Paranoid-Saber-Droid
+
 
 Submitting Patches
 ------------------
@@ -27,39 +35,9 @@ Commit your patches in a single commit. Squash multiple commits using this comma
 
     git rebase -i HEAD~<# of commits>
 
-Building
---------
 
-To get started, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-There are four (4) main branches to build from:
-
-    1) "kitkat" (Stock vanilla AOSPA, for nexus devices)
-    2) "kitkat-remix" (our main branch, filled with non-PA features)
-    3) "kitkat-legacy" (stock vanilla AOSPA, for non-nexus devices)
-    4) "remix-legacy" (filled with non-PA features, for non-nexus devices)
-
-
-Initialize repo:
-
-    repo init -u git://github.com/AOSPAL/manifest.git -b <branch>
-
-Sync the repo:
-
-    repo sync -j<# of threads you would like to use>
-
-Build (Automated):
-
-    make clean && ./rom-build.sh <device>
-
-Build (Manual):
-
-    make clean && . build/envsetup.sh && lunch psd_<device>-userdebug && make -j<# of threads you want> bacon
-
-
-Errors
-------
+Sync Errors
+-----------
 
 When met with sync errors:
 
