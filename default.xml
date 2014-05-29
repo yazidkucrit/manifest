@@ -30,7 +30,9 @@
   <remote  name="legacy"
            fetch="https://github.com/AOSPA-legacy/" />
 
-
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms/" />
+           
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets/" />
 
