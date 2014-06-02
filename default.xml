@@ -12,6 +12,9 @@
 
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
 
   <remote  name="pac"
            fetch="https://github.com/PAC-man/" />
@@ -24,18 +27,21 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+           
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.com/" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario/" />
+           
+  <remote  name="legacy-blobs"
+           fetch="https://github.com/ThankYouLuigi/" />
 
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets/" />
-
+           
   <remote  name="private"
            fetch="ssh://git@bitbucket.org/aospal/" />
-
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -387,26 +393,23 @@
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
 
-  <!-- If you are an official AOSPAL/SaberMod member, or have access to other GCC 4.9 toolchains,
-       make sure to either comment out or replace the appropriate of the following two lines. -->
-
-  <!-- Kernel -->
+  <!-- You will either have to use the following OLD SM GCC, or build your own -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="sm-kk-mr1" />
-  <!-- ROM -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="master" />
-
+  
+  <!-- Official member of AOSPAL/SaberMod? You can uncomment these lines and use the latest SaberMod prebuilts -->
+  <!--
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="arm-eabi-4.10" remote="private" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="private" revision="master" />
+  -->
+  
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
+  
+  <!-- SaberMod Host GCC -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-4.8" name="x86_64-linux-4.8" remote="aospal" revision="kitkat" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-4.8" name="i686-linux-4.8" remote="aospal" revision="kitkat" groups="pdk,linux" />
-  <!--
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
-  -->
   
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
@@ -433,7 +436,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
   <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat" />
   <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
