@@ -39,14 +39,14 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="manifest" remote="aospal" revision="kitkat-legacy" />
+  <project path="manifest" name="manifest" remote="aospal" revision="kitkat-legacy-staging" />
 
-  <project path="build" name="android_build" remote="aospal" revision="kitkat-legacy" >
+  <project path="build" name="android_build" remote="aospal" revision="kitkat-legacy-staging" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" remote="aospal" revision="kitkat-legacy" />
+  <project path="art" name="android_art" remote="aospal" revision="kitkat-legacy-staging" />
   <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat-legacy" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -442,7 +442,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-legacy" />
+  <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-legacy-staging" />
   <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-legacy" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="odex.sh" dest="build-odex.sh" />
