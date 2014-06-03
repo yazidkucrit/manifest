@@ -361,7 +361,9 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="aospal" revision="cm-11.0" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0"/>
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0"/>
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
@@ -373,7 +375,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/DownloadProvider" name="AOSPA-legacy/android_packages_providers_DownloadProvider" remote="github" revision="kitkat" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="aospal" revision="kitkat-legacy" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="aospal" revision="kitkat-legacy-staging" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
