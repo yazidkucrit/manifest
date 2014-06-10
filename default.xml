@@ -443,7 +443,7 @@
   <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-staging">
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
-  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" />
+  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-staging" />
 
 
 </manifest>
