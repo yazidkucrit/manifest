@@ -25,7 +25,7 @@
            fetch="https://github.com/AOSPAL" />
 
   <remote  name="aospa"
-           fetch="https://github.com/AOSPA" />
+           fetch="https://github.com/AOSPA-legacy" />
 
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />
@@ -107,7 +107,7 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
+    <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
@@ -453,6 +453,7 @@
   <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-legacy-staging" />
   <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-legacy" >
     <copyfile src="build.sh" dest="rom-build.sh" />
+    <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
     <copyfile src="odex.sh" dest="build-odex.sh" />
   </project>
 
