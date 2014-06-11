@@ -450,11 +450,12 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-legacy-staging" />
-  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-legacy-staging" >
+  <project path="vendor/psd" name="android_vendor_psd" remote="aospal" revision="kitkat-legacy-staging">
     <copyfile src="build.sh" dest="rom-build.sh" />
-    <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
     <copyfile src="odex.sh" dest="build-odex.sh" />
+  </project>
+  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-legacy-staging" >
+    <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
 
 </manifest>
