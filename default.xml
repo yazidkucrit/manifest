@@ -46,13 +46,13 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" remote="aospal" revision="kitkat-legacy-staging" />
-  <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat-legacy-staging" />
+  <project path="art" name="android_art" remote="aospal" revision="kitkat-legacy" />
+  <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat-legacy" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="aospal" revision="cm-11.0" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="android_dalvik" remote="aospal" revision="kitkat-legacy-staging" />
+  <project path="dalvik" name="android_dalvik" remote="aospal" revision="kitkat-legacy" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -256,7 +256,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="aospal" revision="kitkat-legacy-staging" />
+  <project path="external/skia" name="android_external_skia" remote="aospal" revision="kitkat-legacy" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -286,12 +286,12 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="aospal" revision="kitkat-legacy-staging" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="aospal" revision="kitkat-legacy" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="kitkat-legacy-staging" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" remote="aospal" revision="kitkat-staging" />
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="aospal" revision="kitkat-staging" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" remote="aospal" revision="kitkat" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="aospal" revision="kitkat" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="aospal" revision="kitkat-legacy" groups="pdk" />
@@ -312,7 +312,7 @@
   <project path="frameworks/opt/telephony-msim" name="AOSPA-legacy/android_frameworks_opt_telephony-msim" remote="github" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
-  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="aospal" revision="kitkat-staging" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="aospal" revision="kitkat" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
@@ -324,7 +324,7 @@
   <project path="hardware/libhardware" name="AOSPA-legacy/android_hardware_libhardware" remote="github" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="AOSPA-legacy/android_hardware_libhardware_legacy" remote="github" revision="kitkat" groups="pdk" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="libcore" name="android_libcore" remote="aospal" revision="kitkat-legacy-staging" />
+  <project path="libcore" name="android_libcore" remote="aospal" revision="kitkat-legacy" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -350,7 +350,7 @@
   <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
   <project path="packages/apps/Mms" name="AOSPA-legacy/android_packages_apps_Mms" remote="github" revision="kitkat" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="aospal" revision="kitkat-staging" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="aospal" revision="kitkat" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
@@ -372,13 +372,13 @@
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="aospal" revision="kitkat-staging" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omni" revision="android-4.4" />
   <project path="packages/inputmethods/OpenWnn" name="android_packages_inputmethods_OpenWnn" remote="aospal" revision="kitkat" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/DownloadProvider" name="AOSPA-legacy/android_packages_providers_DownloadProvider" remote="github" revision="kitkat" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="aospal" revision="kitkat-legacy-staging" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="aospal" revision="kitkat-legacy" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -430,13 +430,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="android_prebuilts_tools" remote="aospal" revision="kitkat" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-legacy-staging" />
+  <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-legacy" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0"/>
-  <project path="system/media" name="android_system_media" remote="aospal" revision="kitkat-legacy-staging" groups="pdk" />
+  <project path="system/media" name="android_system_media" remote="aospal" revision="kitkat-legacy" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="android_system_qcom" remote="aospal" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="aospal" revision="kitkat-legacy-staging" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="aospal" revision="kitkat-legacy" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
