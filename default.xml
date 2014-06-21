@@ -32,6 +32,9 @@
 
   <remote  name="legacy-blobs"
            fetch="https://github.com/ThankYouLuigi" />
+           
+  <remote  name="kc"
+           fetch="https://github.com/yazidkucrit" />
 
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
@@ -39,9 +42,9 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="manifest" remote="aospal" revision="kitkat-legacy" />
+  <project path="manifest" name="manifest" remote="kc" revision="kitkat-legacy" />
 
-  <project path="build" name="android_build" remote="aospal" revision="kitkat-legacy" >
+  <project path="build" name="android_build" remote="kc" revision="kitkat-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
